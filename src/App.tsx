@@ -1,10 +1,14 @@
 import React from "react";
 
+import GloblaStyle from "./styles/global";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="App">
-      <h1>oie</h1>
-    </div>
+    <>
+      <Header />
+      <GloblaStyle />
+    </>
   );
 }
 
